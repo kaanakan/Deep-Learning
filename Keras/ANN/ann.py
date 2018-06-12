@@ -61,8 +61,8 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
 """
-array([[1539,   56],
-       [ 210,  195]], dtype=int64)
+array([[1541,   54],
+       [ 207,  198]], dtype=int64)
 
-accuray = 0.867
+accuray = 0.8695
 """
