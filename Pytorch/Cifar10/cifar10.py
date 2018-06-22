@@ -75,8 +75,9 @@ criterion = nn.CrossEntropyLoss()
 
 optimizer = optim.SGD(model.parameters(), lr=0.005, momentum=0.9, weight_decay=5e-5)
 
-for epoch in range(35):  # loop over the dataset multiple times
+for epoch in range(35):
     loss_tmp = 0.0
+    #changing learning rate
     if epoch == 10:
     	optimizer = optim.SGD(model.parameters(), lr=0.003, momentum=0.9, weight_decay=5e-5)
       
