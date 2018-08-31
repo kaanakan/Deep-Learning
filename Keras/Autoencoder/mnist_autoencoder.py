@@ -126,3 +126,7 @@ model.fit(encoded_train_imgs,
 
 score = model.evaluate(encoded_imgs, y_test, verbose=0)
 print('Accuracy:', score[1])
+
+"""
+Accuracy:98.45
+"""
